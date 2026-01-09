@@ -2,20 +2,18 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "main": "Connectiondb.js",
   "scripts": {
-    "pankaja": "nodemon Server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1",
-    "mongoose": "^9.0.1",
-    "nodeman": "^1.1.2",
-    "nodemon": "^3.1.11",
-    "postman": "^0.2.0",
-    "run": "^1.5.0"
+    "mongoose": "^9.0.1"
   }
 }
